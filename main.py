@@ -6,8 +6,8 @@ y = np.sin(x) * np.cos(x)
 
 plt.plot(x, y)
 plt.xlabel('x')
-plt.ylabel('sin(x) * cos(x)')
-plt.title('График функции sin(x) * cos(x)')
+plt.ylabel('log(x) + cos(x)')
+plt.title('График функции log(x) + cos(x)')
 plt.grid(True)
 plt.show()
 
